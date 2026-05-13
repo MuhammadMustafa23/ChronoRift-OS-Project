@@ -1,6 +1,6 @@
-# ChronoRift — Multiplayer Turn-Based RPG via Shared Memory IPC
+# ChronoRift —  Turn-Based RPG via Shared Memory IPC
 
-A wave-based multiplayer RPG built in C++17 that demonstrates core Operating Systems concepts: **POSIX shared memory**, **semaphore synchronization**, **multi-process architecture**, **pthreads**, **signal handling**, and **deadlock detection**.
+A wave-based  RPG built in C++17 that demonstrates core Operating Systems concepts: **POSIX shared memory**, **semaphore synchronization**, **multi-process architecture**, **pthreads**, **signal handling**, and **deadlock detection**.
 
 > **Course Project** — BCSA | 24i-0525 Muhammad Mustafa · 24i-0806 Muhammad Mughees Tariq Khawaja
 
@@ -192,7 +192,7 @@ The Arbiter spawns HIP and ASP automatically:
 ./arbiters
 ```
 
-For multiplayer (two keyboards on same machine), the Arbiter spawns a second HIP process automatically when party size > 2 is selected in the menu.
+For  (two keyboards on same machine), the Arbiter spawns a second HIP process automatically when party size > 2 is selected in the menu.
 
 ### Clean
 
@@ -237,8 +237,3 @@ make clean
 A `Dockerfile` is included for containerized builds. Note: SFML requires a display server; use with X11 forwarding or a virtual framebuffer (`Xvfb`) inside the container.
 
 ---
-
-## Authors
-
-- **Muhammad Mustafa** (24i-0525)  
-- **Muhammad Mughees Tariq Khawaja** (24i-0806)
