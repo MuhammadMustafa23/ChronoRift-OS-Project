@@ -97,6 +97,7 @@ The game runs as **three separate processes** communicating through a single POS
 ## Game Design
 
 ![Main Window](OS-ChronoRift/mainwindow.png)
+![Party Select](OS-ChronoRift/partysize.png)
 
 ### Characters (Playable)
 | Sprite | Name |
@@ -109,6 +110,8 @@ The game runs as **three separate processes** communicating through a single POS
 ### Enemies
 Cybot, Goblin, Macabre, Gato, Grimalkin — assigned randomly per wave.
 
+![Gameplay](OS-ChronoRift/gameplay.png)
+
 ### Actions per Turn
 | Action | Description |
 |--------|-------------|
@@ -120,6 +123,7 @@ Cybot, Goblin, Macabre, Gato, Grimalkin — assigned randomly per wave.
 | `Skip` | Regain 50 stamina |
 | `Ultimate` | Activate ultimate mode (10-turn duration) |
 
+![ActionMenu](OS-ChronoRift/weaponselect.png)
 ### Weapons (9 types)
 | Name | Slots | Damage |
 |------|-------|--------|
@@ -133,6 +137,9 @@ Cybot, Goblin, Macabre, Gato, Grimalkin — assigned randomly per wave.
 | Venom Dagger | 4 | 30 |
 | Splinter Stick | 2 | 12 |
 
+![WeaponSelection](OS-ChronoRift/weaponmen.png)
+
+![SwapInMenu](OS-ChronoRift/swap.png)
 ### Artifacts (Shared Resources — trigger deadlock scenarios)
 - **Solar Core** — held exclusively; others must wait
 - **Lunar Blade** — held exclusively; others must wait
