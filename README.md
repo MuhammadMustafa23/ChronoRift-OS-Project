@@ -96,6 +96,8 @@ The game runs as **three separate processes** communicating through a single POS
 
 ## Game Design
 
+![Main Dashboard](OS-ChronoRift/Screenshot 2026-05-10 185134.png)
+
 ### Characters (Playable)
 | Sprite | Name |
 |--------|------|
