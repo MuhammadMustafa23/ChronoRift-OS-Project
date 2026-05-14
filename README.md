@@ -2,8 +2,6 @@
 
 A wave-based  RPG built in C++17 that demonstrates core Operating Systems concepts: **POSIX shared memory**, **semaphore synchronization**, **multi-process architecture**, **pthreads**, **signal handling**, and **deadlock detection**.
 
-> **Course Project** — BCSA | 24i-0525 Muhammad Mustafa · 24i-0806 Muhammad Mughees Tariq Khawaja
-
 ---
 
 ## Architecture Overview
